@@ -1,0 +1,4 @@
+	Consumer Key (API Key)	LrnPRGBs8UPWNtTKVuTRUxh0O
+Consumer Secret (API Secret)	hlwaVN6Lwz1JFgf7yPy98bsfr89mwldQP8LVa104f879VdAt9X
+Access Token	1084095074-MtxOGB3ZKzKXnk9R8UlGfWxVqXP5UEgBWYYakyt
+Access Token Secret	mhGnuMErccsVcU3qXTUJz95W7RAQlI3iLhJvpcSqn0xHF

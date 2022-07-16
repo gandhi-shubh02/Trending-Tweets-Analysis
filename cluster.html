@@ -1,0 +1,461 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_09e80ac12dc3451d97fe69940ca8212a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_09e80ac12dc3451d97fe69940ca8212a" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_09e80ac12dc3451d97fe69940ca8212a = L.map('map_09e80ac12dc3451d97fe69940ca8212a', {
+                                           center:[50,5],
+                                           zoom: 5,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_2436540f517a4bacbb9e2ca901d14c03 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_09e80ac12dc3451d97fe69940ca8212a);
+
+        
+        
+            
+            var marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea = L.markerClusterGroup();
+            map_09e80ac12dc3451d97fe69940ca8212a.addLayer(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+
+            var marker_871e8e9415674efdab8cbac81988a771 = L.marker(
+                [74.006,40.7128],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_4deb444615b94fb3bba0b08285071a31 = L.popup({maxWidth: '300'});
+
+            
+                var html_30725cc95e0b474b98455c5d4101f56e = $('         <div id="html_30725cc95e0b474b98455c5d4101f56e"                 style="width: 100.0%; height: 100.0%;">                 RT @JASMlNEIIV: These veneers I just got are so AMAZING!!!! 😍👌  I got mine at https://t.co/4YHe4UJeGR 😁    https://t.co/wKr2wCmjxH</div>                 ')[0];
+                popup_4deb444615b94fb3bba0b08285071a31.setContent(html_30725cc95e0b474b98455c5d4101f56e);
+            
+
+            marker_871e8e9415674efdab8cbac81988a771.bindPopup(popup_4deb444615b94fb3bba0b08285071a31);
+
+            
+        
+        
+            
+
+            var marker_ce588dccc18348a1b140ede05aa40b08 = L.marker(
+                [12.96985203,79.15560577],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_6af0802183c54e66b33ec3eab143ebc4 = L.popup({maxWidth: '300'});
+
+            
+                var html_e568ed7fad2b4cceae0cc86646e55b6c = $('         <div id="html_e568ed7fad2b4cceae0cc86646e55b6c"                 style="width: 100.0%; height: 100.0%;">                 Giving autographs after my seminar on &#34; How to get 8 pack abs &#34; 😁.. #GuestSpeaker #motivation… https://t.co/rWV62tScb1</div>                 ')[0];
+                popup_6af0802183c54e66b33ec3eab143ebc4.setContent(html_e568ed7fad2b4cceae0cc86646e55b6c);
+            
+
+            marker_ce588dccc18348a1b140ede05aa40b08.bindPopup(popup_6af0802183c54e66b33ec3eab143ebc4);
+
+            
+        
+        
+            
+
+            var marker_5d6292b5098248c7b66bdab696613e4c = L.marker(
+                [88.3639,22.5726],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_5696c6a9610b4418b828d8d1d772b3b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_16184a5eb57e4be3ae8783cae5a4c20a = $('         <div id="html_16184a5eb57e4be3ae8783cae5a4c20a"                 style="width: 100.0%; height: 100.0%;">                 RT @JASMlNEIIV: AMAZING DAY!!!!</div>                 ')[0];
+                popup_5696c6a9610b4418b828d8d1d772b3b1.setContent(html_16184a5eb57e4be3ae8783cae5a4c20a);
+            
+
+            marker_5d6292b5098248c7b66bdab696613e4c.bindPopup(popup_5696c6a9610b4418b828d8d1d772b3b1);
+
+            
+        
+        
+            
+
+            var marker_c267108d1d9f4231a98adf6cd05191d5 = L.marker(
+                [72.8777,19.076],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_598696a344434c4d8fff38ef367d7fa3 = L.popup({maxWidth: '300'});
+
+            
+                var html_79d78bbdb42a40be90652fe9bfa59e63 = $('         <div id="html_79d78bbdb42a40be90652fe9bfa59e63"                 style="width: 100.0%; height: 100.0%;">                 What a beautiful day!!!</div>                 ')[0];
+                popup_598696a344434c4d8fff38ef367d7fa3.setContent(html_79d78bbdb42a40be90652fe9bfa59e63);
+            
+
+            marker_c267108d1d9f4231a98adf6cd05191d5.bindPopup(popup_598696a344434c4d8fff38ef367d7fa3);
+
+            
+        
+        
+            
+
+            var marker_8bedd4fc11c44b03a7799797fa993e11 = L.marker(
+                [77.1025,28.7041],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_baf966d9eea14bb4a03416b1d7c067a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d33773b74d348949ca2bca5f1d28248 = $('         <div id="html_6d33773b74d348949ca2bca5f1d28248"                 style="width: 100.0%; height: 100.0%;">                 Delhi it is!!!</div>                 ')[0];
+                popup_baf966d9eea14bb4a03416b1d7c067a1.setContent(html_6d33773b74d348949ca2bca5f1d28248);
+            
+
+            marker_8bedd4fc11c44b03a7799797fa993e11.bindPopup(popup_baf966d9eea14bb4a03416b1d7c067a1);
+
+            
+        
+        
+            
+
+            var marker_65f4ee02d4c04904a9e4ff49766ee698 = L.marker(
+                [80.2707,13.0827],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_e297241450334f829fe0355868ad26da = L.popup({maxWidth: '300'});
+
+            
+                var html_36c584e73d5f47de88af0b8dbdc5dbdb = $('         <div id="html_36c584e73d5f47de88af0b8dbdc5dbdb"                 style="width: 100.0%; height: 100.0%;">                 This point is Chennai :) lovely....</div>                 ')[0];
+                popup_e297241450334f829fe0355868ad26da.setContent(html_36c584e73d5f47de88af0b8dbdc5dbdb);
+            
+
+            marker_65f4ee02d4c04904a9e4ff49766ee698.bindPopup(popup_e297241450334f829fe0355868ad26da);
+
+            
+        
+        
+            
+
+            var marker_c4b8f62c1b134e898f8f13268780f935 = L.marker(
+                [77.5947,12.9716],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_40efaa900471406699c743c511e5e469 = L.popup({maxWidth: '300'});
+
+            
+                var html_abcdb23c3bf84cb9ae952445a452eb49 = $('         <div id="html_abcdb23c3bf84cb9ae952445a452eb49"                 style="width: 100.0%; height: 100.0%;">                 New Start over here</div>                 ')[0];
+                popup_40efaa900471406699c743c511e5e469.setContent(html_abcdb23c3bf84cb9ae952445a452eb49);
+            
+
+            marker_c4b8f62c1b134e898f8f13268780f935.bindPopup(popup_40efaa900471406699c743c511e5e469);
+
+            
+        
+        
+            
+
+            var marker_d43f3581d7934203bf18b48675e13031 = L.marker(
+                [90.4125,23.8103],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_b3a592fde8244cada1fcd3503978cc08 = L.popup({maxWidth: '300'});
+
+            
+                var html_c80a9447685345399971e75395b6e2f4 = $('         <div id="html_c80a9447685345399971e75395b6e2f4"                 style="width: 100.0%; height: 100.0%;">                 Trip to dhaka</div>                 ')[0];
+                popup_b3a592fde8244cada1fcd3503978cc08.setContent(html_c80a9447685345399971e75395b6e2f4);
+            
+
+            marker_d43f3581d7934203bf18b48675e13031.bindPopup(popup_b3a592fde8244cada1fcd3503978cc08);
+
+            
+        
+        
+            
+
+            var marker_8ffbce80fbf34698837fd7eac4e6c867 = L.marker(
+                [18.5204,73.8567],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_5ab2d6543ce34450a66cbc64c57c74da = L.popup({maxWidth: '300'});
+
+            
+                var html_77432ca55c284cc980f809bd95904388 = $('         <div id="html_77432ca55c284cc980f809bd95904388"                 style="width: 100.0%; height: 100.0%;">                 Pune tithe kay Une</div>                 ')[0];
+                popup_5ab2d6543ce34450a66cbc64c57c74da.setContent(html_77432ca55c284cc980f809bd95904388);
+            
+
+            marker_8ffbce80fbf34698837fd7eac4e6c867.bindPopup(popup_5ab2d6543ce34450a66cbc64c57c74da);
+
+            
+        
+        
+            
+
+            var marker_0219bade2b13450991056967c5b8fad9 = L.marker(
+                [2.3522,48.8566],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_4343815263cd4b0589e2ff1bec02bc9f = L.popup({maxWidth: '300'});
+
+            
+                var html_31b8a4edef5146eda5667316da1e43be = $('         <div id="html_31b8a4edef5146eda5667316da1e43be"                 style="width: 100.0%; height: 100.0%;">                 Place of love &lt;3</div>                 ')[0];
+                popup_4343815263cd4b0589e2ff1bec02bc9f.setContent(html_31b8a4edef5146eda5667316da1e43be);
+            
+
+            marker_0219bade2b13450991056967c5b8fad9.bindPopup(popup_4343815263cd4b0589e2ff1bec02bc9f);
+
+            
+        
+        
+            
+
+            var marker_ee177a6b51ab4bd48c7031c56cea2087 = L.marker(
+                [12.4964,41.9028],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_4dde94d915244e028ab557ed1c687311 = L.popup({maxWidth: '300'});
+
+            
+                var html_ddad895f110b4736a737e99513309c94 = $('         <div id="html_ddad895f110b4736a737e99513309c94"                 style="width: 100.0%; height: 100.0%;">                 Rome &lt;3</div>                 ')[0];
+                popup_4dde94d915244e028ab557ed1c687311.setContent(html_ddad895f110b4736a737e99513309c94);
+            
+
+            marker_ee177a6b51ab4bd48c7031c56cea2087.bindPopup(popup_4dde94d915244e028ab557ed1c687311);
+
+            
+        
+        
+            
+
+            var marker_b4164c369d8d425686e2686294f80ddc = L.marker(
+                [2.1734,41.3851],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_125b0f85cbf949fb97d9767c9fdb13ea);
+            
+        
+            
+            var popup_86a513a49b1942a4ac11c7b023d95351 = L.popup({maxWidth: '300'});
+
+            
+                var html_e25964cc3d2845fe82c54551a3c2f704 = $('         <div id="html_e25964cc3d2845fe82c54551a3c2f704"                 style="width: 100.0%; height: 100.0%;">                 Europe trip continues&lt;3</div>                 ')[0];
+                popup_86a513a49b1942a4ac11c7b023d95351.setContent(html_e25964cc3d2845fe82c54551a3c2f704);
+            
+
+            marker_b4164c369d8d425686e2686294f80ddc.bindPopup(popup_86a513a49b1942a4ac11c7b023d95351);
+
+            
+        
+        
+        
+        </script>
+        
