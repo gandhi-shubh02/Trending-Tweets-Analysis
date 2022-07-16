@@ -9,7 +9,7 @@ Tech Stack Used:
 - Built a reply ranking system for tweets by utilising Tweepy module and Twitter streaming API . Obtained tweets originating
 from a location and surface out the current trending topics on Twitter. Implemented a DAG to fetch the tweet which had obtained maximum replies.
 
-Links
+Links:
 
 Tweepy: https://www.tweepy.org
 
