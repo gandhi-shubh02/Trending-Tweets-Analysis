@@ -11,4 +11,5 @@ from a location and surface out the current trending topics on Twitter. Implemen
 
 Links
 Tweepy: https://www.tweepy.org
+
 Consumer Streaming Data: https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data
