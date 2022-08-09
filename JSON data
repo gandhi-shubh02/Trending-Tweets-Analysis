@@ -1,0 +1,173 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    40.7128,
+                    74.006
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "RT @JASMlNEIIV: These veneers I just got are so AMAZING!!!! \ud83d\ude0d\ud83d\udc4c\n\nI got mine at\nhttps://t.co/4YHe4UJeGR \ud83d\ude01\n \n https://t.co/wKr2wCmjxH",
+                "created_at": "Sat Nov 04 14:08:20 +0000 2017"
+            }
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    79.15560577,
+                    12.96985203
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Giving autographs after my seminar on \" How to get 8 pack abs \" \ud83d\ude01.. #GuestSpeaker #motivation\u2026 https://t.co/rWV62tScb1",
+                "created_at": "Sat Nov 04 13:31:38 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   22.5726,
+		   88.3639
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "RT @JASMlNEIIV: AMAZING DAY!!!!",
+                "created_at": "Mon Nov 06 23:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   19.0760,
+		   72.8777
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "What a beautiful day!!!",
+                "created_at": "Sat Nov 11 4:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   28.7041,
+		   77.1025
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Delhi it is!!!",
+                "created_at": "Sat Nov 11 14:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   13.0827,
+		   80.2707
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "This point is Chennai :) lovely....",
+                "created_at": "Wed Nov 15 14:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   12.9716,
+		   77.5947
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "New Start over here",
+                "created_at": "Wed Oct 10 14:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   23.8103,
+		   90.4125
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Trip to dhaka",
+                "created_at": "Sun Oct 15 15:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                      73.8567,
+                      18.5204
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Pune tithe kay Une",
+                "created_at": "Sun Jan 15 5:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   48.8566,
+		   2.3522
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Place of love <3",
+                "created_at": "Sat Jan 25 7:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   41.9028,
+		   12.4964
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Rome <3",
+                "created_at": "Sat Jan 18 7:08:20 +0000 2017"
+            }
+        },
+	{
+            "geometry": {
+                "coordinates": [
+                   41.3851,
+		   2.1734
+                ],
+                "type": "Point"
+            },
+            "type": "Feature",
+            "properties": {
+                "text": "Europe trip continues<3",
+                "created_at": "Sun  Jan 26 7:08:20 +0000 2017"
+            }
+        }	
+    ],
+    "type": "FeatureCollection"
+}
